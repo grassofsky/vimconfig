@@ -1,3 +1,5 @@
+let mapleader=","
+
 " before 
 set t_Co=16
 
@@ -22,15 +24,14 @@ Plugin 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
 
+Plugin 'vim-pandoc/vim-pandoc'
 Plugin 'vim-pandoc/vim-pandoc-syntax'
-Plugin 'vim-pandoc/vim-pantondoc'
-
 Plugin 'dhruvasagar/vim-table-mode'
 Plugin 'godlygeek/tabular'
 
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'junegunn/goyo.vim'
-Plugin 'scrooloose/syntastic'
+" Plugin 'scrooloose/syntastic'
 
 Plugin 'Townk/vim-autoclose'
 Plugin 'scrooloose/nerdtree'
@@ -45,6 +46,9 @@ Plugin 'majutsushi/tagbar'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-easytags'
 " Plugin 'kana/vim-textobj-entire'
+
+" Plugin 'aaronbieber/vim-quicktask'
+Plugin 'vimoutliner/vimoutliner'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -130,3 +134,5 @@ inoremap <C-Space> <C-x><C-o>
 
 " for tagbar
 nmap <f9> :TagbarToggle<CR>
+
+au! BufRead,BufNewFile *.otl    setfiletype votl
