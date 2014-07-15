@@ -44,7 +44,7 @@ Plugin 'sirver/UltiSnips'
 Plugin 'honza/vim-snippets'
 Plugin 'majutsushi/tagbar'
 Plugin 'xolox/vim-misc'
-Plugin 'xolox/vim-easytags'
+" Plugin 'xolox/vim-easytags'
 " Plugin 'kana/vim-textobj-entire'
 
 " Plugin 'aaronbieber/vim-quicktask'
